@@ -38,9 +38,12 @@ public class Calculator
 
 	    private boolean areValidValuesForDivide(double validCandidateFirstParam, double validCandidateSecondParam)
 	    {
-	        if(validCandidateFirstParam==0.00 && validCandidateSecondParam==0.0) {
+	        if(validCandidateFirstParam == 0.00 && validCandidateSecondParam == 0.00) {
 	            return false;
-	        } else {
+	        } 
+		    
+		else    
+		{
 	            return true;
 	        }
 	    }
