@@ -14,7 +14,8 @@ public class Calculator
 
 	    public double divide(double divideCandidateFirstParam, double divideCandidateSecondParam)
 	    {
-	        if(areValidValuesForDivide(divideCandidateFirstParam, divideCandidateSecondParam)) {
+	        if(areValidValuesForDivide(divideCandidateFirstParam, divideCandidateSecondParam)) 
+		{
 	            result = divideCandidateFirstParam / divideCandidateSecondParam;
 	        }
 
@@ -38,7 +39,8 @@ public class Calculator
 
 	    private boolean areValidValuesForDivide(double validCandidateFirstParam, double validCandidateSecondParam)
 	    {
-	        if(validCandidateFirstParam == 0.00 && validCandidateSecondParam == 0.00) {
+	        if(validCandidateFirstParam == 0.00 && validCandidateSecondParam == 0.00) 
+		{
 	            return false;
 	        } 
 		    
